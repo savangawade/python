@@ -6,8 +6,18 @@ class Addition:
     def sum(self):
         z=self.a+self.b+self.c
         print("sum is:",z)
-a=int(input("enter first number:"))
-b=int(input("enter second number:"))
-c=int(input("enter third number:"))
-obj=Addition(a,b,c)
-obj.sum()
+while True:
+    a=int(input("enter first number:"))
+    b=int(input("enter second number:"))
+    c=int(input("enter third number:"))
+    obj=Addition(a,b,c)
+    obj.sum()
+
+
+
+
+
+
+
+
+
