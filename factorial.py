@@ -14,10 +14,19 @@
 # print("factorial of",n,"is=",fact)
 
 
+# n=int(input("enter the number="))
+# count=2
+# fact=1
+# while (count<=n):
+#     fact=fact*count
+#     count=count+1
+# print("factorial of",n,"is=",fact)
+
+
 n=int(input("enter the number="))
-count=2
+count = 1
 fact=1
-while (count<=n):
-    fact=fact*count
-    count=count+1
-print("factorial of",n,"is=",fact)
+while (count<n):
+    fact=fact*n
+    n=n-1
+print("factorial of number","is=",fact)
