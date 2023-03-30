@@ -6,3 +6,5 @@ Result=aValue.find(bValue,3,7)
 print(f"find of character in {bValue}:{Result}")
 result=aValue.count(bValue)
 print(f"count of bvalue in {bValue}:{result}")
+
+a=eval(input())
