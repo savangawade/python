@@ -1,2 +1,3 @@
-aValue=(10,20,30,45,85,87)
+aValue=(10,20,30,45,85,88)
 print(aValue,type(aValue))
+print("avalue")
